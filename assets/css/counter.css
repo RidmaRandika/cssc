@@ -1,0 +1,39 @@
+.clock-item .inner{
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;
+	width: 100%;
+}
+.clock-canvas{
+	
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+	border: 3px solid #1c9cc4;
+}
+.text {
+	
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -50px;
+	position: absolute;
+	top: 60%;
+	text-align: center;
+	text-shadow: 1px 1px 1x rgb(22, 22, 22) ;
+	width: 100%;
+}
+.val{
+	color: black;
+	font-size: 3rem;
+	margin: 5px 0;
+}
+.type-time{
+	margin-top: 10px;
+	color: rgb(107, 106, 106);
+	font-family: 'Roboto', sans-serif;
+}
+.countdown-time-value{
+	font-family: 'Catamaran', sans-serif;
+	margin-top: 20px;
+}
