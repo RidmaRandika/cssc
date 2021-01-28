@@ -81,6 +81,7 @@
   });
 
   $(document).ready(function() {
+
     $(document).on("scroll", onScroll);
 
     //smoothscroll
@@ -109,6 +110,13 @@
             $(document).on("scroll", onScroll);
           }
         );
+    });
+
+
+    $("div#facCodes").hide();
+
+    $("#btnHome").click(function () {
+      $("div#facCodes").show();
     });
   });
 
