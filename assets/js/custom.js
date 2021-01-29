@@ -122,7 +122,6 @@
         : ($("div#facCodes").hide(), (flag = true));
     });
   });
-  });
 
   function onScroll(event) {
     var scrollPos = $(document).scrollTop();
