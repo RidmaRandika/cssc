@@ -114,10 +114,13 @@
 
 
     $("div#facCodes").hide();
-
+    var flag = true;
     $("#btnHome").click(function () {
-      $("div#facCodes").show();
+      flag == true
+        ? ($("div#facCodes").show(), (flag = false))
+        : ($("div#facCodes").hide(), (flag = true));
     });
+  });
   });
 
   function onScroll(event) {
