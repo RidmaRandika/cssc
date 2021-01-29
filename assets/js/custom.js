@@ -116,7 +116,6 @@
     $("div#facCodes").hide();
     var flag = true;
     $("#btnHome").click(function () {
-      alert('clicked');
       flag == true
         ? ($("div#facCodes").show(), (flag = false))
         : ($("div#facCodes").hide(), (flag = true));
